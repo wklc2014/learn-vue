@@ -12,7 +12,6 @@
           </ul>
       </div>
       <router-view></router-view>
-      <level-1></level-1>
     </section>
 </template>
 <script>

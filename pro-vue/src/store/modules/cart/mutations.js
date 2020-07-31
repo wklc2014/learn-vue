@@ -1,10 +1,10 @@
 import * as MUTION_TYPES from '../../mutation-types.js';
 
 export default {
-    [MUTION_TYPES.AMOUNT_INCREASE]: (state, payload) => {
+    addAmount: (state, payload) => {
         state.amount += payload || 1;
     },
-    [MUTION_TYPES.AMOUNT_DECREASE]: (state, payload) => {
+    reduceAmount: (state, payload) => {
         state.amount -= payload || 1;
     }
 }
